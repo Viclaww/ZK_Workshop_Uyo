@@ -24,8 +24,17 @@ https://testnet.aleoscan.io/transaction?id=at1emfdahu6nyzjd5djdxtagpf9tfrun8er3v
 # Workshop 2
 The second program was create a token. We used the mint and transfer functions(transitions) then deployed the token to the testnet
 
+
+1st Command : `leo run mint <type_aleo_address> <type_amount>u64`
+
+
+2nd command: `leo run transfer "<Token_Record>" <to_address> <amount>u64`
+We were  able to use the generated record from 1st command to input into the second command's first input  and then our to address and amount 
+
  https://testnet.aleoscan.io/transaction?id=at1at0epvkm5f6fsuku9kg49u84gqm9p80dt3dc4q78r9akjt846yqspfkvnw
 
  # Workshop 3 
 
-The Third program 
+`leo run combine_hash_owner_receiver <type_your_address> <type_friend_address>`
+This has only 2 inputs where first input is owner address (self.caller) and second input is the  receiver address
+
