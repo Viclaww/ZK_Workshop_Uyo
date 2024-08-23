@@ -1,4 +1,4 @@
-## moov_bootcamp
+## Moov_bootcamp Uyo
 This is the overview of what I learnt on aleo blockchain using the leo language
 
 # Installation 
@@ -14,6 +14,9 @@ we created three programs and deployed them
 
 # Workshop 1
 The first program was a simple Leo progam that add two variables together and mine was deployed here
+
+`leo run main 3u32 2u32 --network testnet`
+Where main =》transition function name, `3u32 2u32` is the inputs and network is specified `testnet`
 
 https://testnet.aleoscan.io/transaction?id=at1emfdahu6nyzjd5djdxtagpf9tfrun8er3v3ysy280xfp5exswuqsfw8ltm
 
