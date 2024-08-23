@@ -38,3 +38,4 @@ We were  able to use the generated record from 1st command to input into the sec
 `leo run combine_hash_owner_receiver <type_your_address> <type_friend_address>`
 This has only 2 inputs where first input is owner address (self.caller) and second input is the  receiver address
 
+https://testnet.aleoscan.io/transaction?id=at1emfdahu6nyzjd5djdxtagpf9tfrun8er3v3ysy280xfp5exswuqsfw8ltm
